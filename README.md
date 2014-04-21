@@ -9,6 +9,14 @@ The MAVBoard makes connecting several MAVLink devices a breeze. It is very easy 
 
 The Pro model also includes on onboard Arduino compatible ATMega328P chip which is also connected to the MAVLink hub that performs protocol translation on the MAVLink stream and output the translated signal to a dedicated set of pins. There is existing code (based on JDrone's jD_IOBoard_FrSkyMAVLink code) today that can translate MAVLink into the FrSky hub protocol so you can the FrSky FLD-02 and see useful telemetry values right on your RC transmitter!
 
+## Firmwares ##
+
+This repository contains information about the MAVBoard hardware. There (will be) several firmwares that are compatible with the MAVBoard based on which RC system you use. Click below to go to the repository for the specific firmware to get instructions about how to use that firmware:
+
+* FrSky Hub Protocol for D series Receivers (D4R-II, D8R-XP): [https://github.com/mavboard/jD-IOBoard](https://github.com/mavboard/jD-IOBoard)
+* FrSky S.Port Protocol for X series Recievers (Taranis Compatible): (coming soon)
+* OpenLRSng telemetry (throttled MAVLink): (coming soon)
+
 
 ## Typical Application ##
 
