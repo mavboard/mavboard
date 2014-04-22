@@ -7,7 +7,7 @@ The MAVBoard is a way to share a single MAVLink telemetry connection (the teleme
 
 The MAVBoard makes connecting several MAVLink devices a breeze. It is very easy to choose which device can access the "Tx" pin of the MAVLink connection by a simple jumper. Now your OSD, two-way telemetry radio AND FrSky telemetry can all run at the same time without the wiring being a nightmare!
 
-The Pro model also includes on onboard Arduino compatible ATMega328P chip which is also connected to the MAVLink hub that performs protocol translation on the MAVLink stream and output the translated signal to a dedicated set of pins. There is existing code (based on JDrone's jD_IOBoard_FrSkyMAVLink code) today that can translate MAVLink into the FrSky hub protocol so you can the FrSky FLD-02 and see useful telemetry values right on your RC transmitter!
+The Pro model also includes on onboard Arduino compatible ATMega328P chip which has the ability to convert Mavlink data on the input into alternate RC telemetry protocols.
 
 ## Firmwares ##
 
