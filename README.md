@@ -3,8 +3,6 @@ mavboard
 
 Just got your MAVBoard? Check out the [Quickstart Guide](https://github.com/mavboard/mavboard/wiki/Getting-Started)!
 
-Looking to buy a MAVBoard? Visit the [Online Shop](https://www.trycelery.com/shop/mavboard)!
-
 
 The MAVBoard is a way to share a single MAVLink telemetry connection (the telemetry port on a 3D Robotics APM 2.X, for example) among multiple devices, such as OSDs, telemetry radios, telemetry converters or other add-on boards. Until now, the solution has been to create custom soldered cable harnesses which are difficult to make and not as flexible, since only one device can be connected to the "Tx" pin of the MAVLink connection.
 
